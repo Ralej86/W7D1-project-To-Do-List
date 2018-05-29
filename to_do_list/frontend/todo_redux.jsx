@@ -8,7 +8,7 @@ import { receiveTodos,
           RECEIVE_TODOS} from './actions/todo_actions';
 import App from './components/app.jsx';
 import Root from './components/root';
-import { allTodos } from './reducers/selectors';
+import allTodos from './reducers/selectors';
 
 document.addEventListener('DOMContentLoaded', () => {
   const rootEl = document.getElementById('content');
